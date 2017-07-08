@@ -40,4 +40,7 @@ The following features were used for data from each channel:<br>
 * median frequency
 * __6<sup>th</sup> order Autoregression(AR) coefficients__
 * __Waveform length__
-* Band Power
+* Band Power<br>
+
+### 5.Classification:<br>
+The MATLAB code to generate the classifier model is present. The object is present in the class.mat(as is the filter).
