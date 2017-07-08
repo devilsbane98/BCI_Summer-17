@@ -17,7 +17,7 @@ Python 2.x(https://python.org)<br>
 
 ## Installation:
 1. Download and copy the contents of this repository into your pyemotiv directory
-2. Change the path of testepoc.PY in line no. - of onlineanalysis.m
+2. Change the path of testepoc.PY in line no. 9 of onlineanalysis.m
 3. You are good to go.
 
 ## Method:
