@@ -40,4 +40,7 @@ The following features were used for data from each channel:<br>
 * median frequency
 * __6<sup>th</sup> order Autoregression(AR) coefficients__
 * __Waveform length__
-* Band Power
+* Band Power<br>
+
+### 5.Classification
+Classifier object is present in the *class.mat* file and the code to generate it is *trainClassifier.m*
