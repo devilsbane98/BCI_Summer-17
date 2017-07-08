@@ -27,7 +27,7 @@ The signal is acquired using a 14- Channel EEG- based signal acquisition device 
 Pyemotiv acquires the data into a Comma-Separated-Values(.csp) file. The subject is asked to do any of the above mentioned task and the brain signals of the respective task is then acquired into a Comma-Separated-Values(.csp) file which is then loaded into MATLAB for further analysis.<br>
 ### 3. Filtering the data:<br>
 ### Filter Specifications:<br>
-__6<sup>th</sup> order IIR Butterworth Highpass filter with f<sub>cutoff</sub>=5Hz__<br>
+__6<sup>th</sup> order IIR Butterworth Highpass filter with f<sub>cutoff</sub>=5Hz and Sampling Frequency=64 Hz__<br>
 ### 4.Feature Extraction<br>
 The following features were used for data from each channel:<br>
 * simple integral
@@ -40,7 +40,4 @@ The following features were used for data from each channel:<br>
 * median frequency
 * __6<sup>th</sup> order Autoregression(AR) coefficients__
 * __Waveform length__
-* Band Power<br>
-
-### 5.Classification:<br>
-The MATLAB code to generate the classifier model is present. The object is present in the class.mat(as is the filter).
+* Band Power
