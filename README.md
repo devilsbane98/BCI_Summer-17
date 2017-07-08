@@ -1,7 +1,7 @@
 # BCI_Summer-17
 E-Club iitk summer'17 project
 
-We try to guess the mental process going on in the subject's brain. The following processes can be identified currently(they are sh):
+We try to guess the mental process going on in the subject's brain. The following processes can be identified currently(they are sh):<br>
 1. Relaxed State-Subject is relaxed and not thinking about anything in particular.
 2. 3D geometric task-Subject is shown a 3D object for 30 seconds(approx.) and then asked to visualise and rotate it
 3. Math Task- Subject is given a complex mathematical task e.g. multiplication of two 3-digit numbers
@@ -17,8 +17,9 @@ Python 2.x(https://python.org)<br>
 
 ## Installation:
 1. Download and copy the contents of this repository into your pyemotiv directory
-2. Change the path of testepoc.PY in line no. 9 of onlineanalysis.m
+2. Change the path of testepoc.PY in line no. 9 of onlineanalysis.m and the paths of the ppt in ppt.m and ppt2.m
 3. You are good to go.
+4. Run onlineanalysis.m
 
 ## Method:
 ### 1. Emotiv Epoc headset setting:
